@@ -1,1 +1,7 @@
-print("Sistema de estoque iniciado.")
+from estoque import cadastraProduto
+
+def main():
+    estoque = {}
+    cadastraProduto(estoque)
+
+
