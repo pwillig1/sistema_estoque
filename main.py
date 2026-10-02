@@ -1,7 +1,9 @@
 from estoque import cadastraProduto
 
 def main():
-    estoque = {}
+    estoque = []
     cadastraProduto(estoque)
+
+main()
 
 
